@@ -11,10 +11,10 @@ public class Main {
         String test1 = "qwerty";
         System.out.println(first + two + thre );
         System.out.println(test1.toLowerCase());
-//        while (thre < 5){
-  //          System.out.println(thre);
-    //        thre++;
-      //  }
+        while (thre < 5){
+            System.out.println(thre);
+            thre++;
+        }
         for (int i = 1; i <= 10; i++) {
             System.out.println(i);
         }
