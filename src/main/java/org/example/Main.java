@@ -19,7 +19,7 @@ public class Main {
             System.out.println(i);
         }
 
-        if (thre < 3) {
+        if (thre < first) {
             System.out.println("yes");
         } else {
             System.out.println("no");
