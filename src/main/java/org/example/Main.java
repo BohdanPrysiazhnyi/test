@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         int first = 1;
         int two = 2;
-        int thre = 0;
+        int thre = 2;
         char q ='q';
         String test1 = "qwerty";
         System.out.println(first + two + thre );
