@@ -52,24 +52,22 @@ n = 8 result = 33;
 n = 11 result = 143; */
 
     public static int task3 (int z){
-        int result = 0 ;
-        int var1 = 0;
-        int var2 = 1;
-        int var3;
-        if (z <= 0 || z ==1){
-            result = 0;
-        } else if (z == 2){
-            result = 1;
-        } else if (z > 2) {
-            for (int i = 2; i < z; i++) {
-                var3 =  var1 + var2  ;
-                result = var3 + result;
-                var1 = var2;
-                var2 = var3;
-
-            }
-            result++;
-        }
-        return result;
+      int x = 0;
+      int y = 1;
+      int q = 0;
+      int result = 0;
+      if (z==0){
+          result =0;
+      } else if(z==1 || z ==2){
+          result =1;
+      } else if (z>2){
+          for (int i = 2; i < z; i++) {
+            q = x + y;
+            result = q + result;
+            x = y;
+            y = q;
+          }
+      }
+        return result +1;
     }
 }
