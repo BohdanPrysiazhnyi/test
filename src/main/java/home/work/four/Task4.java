@@ -1,15 +1,20 @@
 package home.work.four;
 
+import org.example.Main;
+
 public class Task4 {
 
-    public static int progression (int initial, int step, int quantity){
-        int result = initial;
+    public static int progression(int initial, double step, int quantity) {
+        int result = 0;
         int currentNumber = initial;
-        for (int i = 1; i < quantity; i++) {
-            currentNumber += step;
-            result *= currentNumber;
+
+        while (currentNumber > quantity) {
+
+            result += currentNumber;
+            currentNumber *= step;
         }
-        return result;
+
+        return Math.round(result);
     }
 
 }
