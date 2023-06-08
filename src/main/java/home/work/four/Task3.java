@@ -1,6 +1,6 @@
 package home.work.four;
 
-public class Task4 {
+public class Task3 {
 
     public static int progression (int initial, int step, int quantity){
         int result = initial;
